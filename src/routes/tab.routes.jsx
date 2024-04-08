@@ -62,9 +62,8 @@ const TabRoutes = () => {
           tabBarInactiveTintColor: "#D6D6D6",
         }}
       />
-
-      <Tab.Screen
-        name="localization"
+            <Tab.Screen
+        name="Localization"
         component={Localization}
         options={{
           tabBarIcon: ({ focused }) => (
